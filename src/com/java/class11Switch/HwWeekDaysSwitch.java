@@ -6,7 +6,7 @@ import java.util.Scanner;
 //  1 - Monday
 //  2 - Tuesday....
 //  6 - Saturday
-public class HwWeekDaysSwitch {
+public class  HwWeekDaysSwitch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println(" Please Enter the number from (1-6) ");

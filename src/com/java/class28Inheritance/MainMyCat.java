@@ -1,6 +1,6 @@
 package com.java.class28Inheritance;
 
-public class MainCat {
+public class MainMyCat {
 
     public static void main(String[] args) {
 

@@ -24,7 +24,7 @@ public class HwMethodFindGreatestNumberOutOfFourNumbersNesteIFElseReturn {
     }
     static int findGreatestOf4(int a1, int b2, int c3, int d4) {
 
-        int maxNum =0;
+
 
         if (a1 > b2 && a1 > c3 && a1 > d4) {
             return a1;

@@ -11,7 +11,7 @@ public class ArithmeticOperations {
         System.out.println(num1 * num2);
         System.out.println(num1 / num2);
 
-        System.out.println(10 % 3); // Answer - 1
+        System.out.println(10 % 3); // Answer - 1  ile zostaje nie ile sie miesci 3
         System.out.println(15 % 4); // Answer - 3
 
         System.out.println(15 % 2); // Answer - 1
