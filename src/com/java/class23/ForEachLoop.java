@@ -6,6 +6,7 @@ public class ForEachLoop {
 
         // Printing all elements of array using index based for loop
         // Iterating / Traversing
+
         for (int i = 0; i < data.length; i++) {
             System.out.println(data[i]);
         }
