@@ -19,12 +19,15 @@ public class FrequencyOfNames {
 
         for (String name : arrayOfNames) {
             if (frequency.containsKey(name)) {
-                frequency.put(name, frequency.get(name) + 1);
+
+                //int count = frequency.get(name);
+
+                //System.out.println(name);
+                frequency.put(name, frequency.get(name) + 1);  // frequency.put(name, count + 1);
             } else {
                 frequency.put(name, 1);
             }
         }
-
         System.out.println("\n \n \n"+frequency);
 
 

@@ -1,4 +1,4 @@
-package com.java.class39;
+package com.java.class39.Exceptions;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

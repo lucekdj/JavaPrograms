@@ -14,6 +14,9 @@ public class SetExample {
         listOfData.add(50);
         listOfData.add(20);
         listOfData.add(45);
+        listOfData.add(50);
+        listOfData.add(20);
+        listOfData.add(45);
 
         System.out.println(listOfData);
 
@@ -23,7 +26,10 @@ public class SetExample {
         setOfData.add(45);
         setOfData.add(50);
         setOfData.add(20);
-        setOfData.add(10);
+        setOfData.add(10);  // doesn't duplicate elements
+        setOfData.add(10);  // it won't print only one time 10
+        setOfData.add(31);
+        
 
         System.out.println(setOfData);
 

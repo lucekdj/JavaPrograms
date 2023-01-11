@@ -1,4 +1,4 @@
-package com.java.class39;
+package com.java.class39.Exceptions;
 
 import java.io.File;
 import java.io.FileInputStream;

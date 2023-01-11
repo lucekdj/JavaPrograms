@@ -1,4 +1,4 @@
-package com.java.class39;
+package com.java.class39.Exceptions;
 
 public class FinallyExample {
     public static void main(String[] args) {

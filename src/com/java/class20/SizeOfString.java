@@ -13,27 +13,40 @@ public class SizeOfString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter String");
-        String str = sc.nextLine();
+        String strInput = sc.nextLine();
 
-        int count = getNumberOfSpaces(str);
+        int count = getNumberOfSpaces(strInput);
+
+        //System.out.println(count);
+
+        //SizeOfString.getNumberOfSpaces(strInput);
+        System.out.println(SizeOfString.getNumberOfSpaces(strInput));
+
+        //System.out.println(getNumberOfSpaces(strInput));
 
         if (count >= 10) {
-            System.out.println("Large");
+            System.out.println("This is a large String");
         } else if (count >= 5) {
             System.out.println("Medium");
         } else {
             System.out.println("Small");
         }
+
+
     }
 
     static int getNumberOfSpaces(String str) {
         int count = 0;
         for (int i = 0;  i < str.length(); i++) {
+            //System.out.println(str.charAt(i)); //my test -prints all characters
+
             if (str.charAt(i) == ' ') {
                 count++;
             }
         }
-        System.out.println(count);
+        //System.out.println(count);
         return count;
     }
+
+
 }

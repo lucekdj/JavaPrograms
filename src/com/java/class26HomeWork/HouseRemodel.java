@@ -1,6 +1,6 @@
 package com.java.class26HomeWork;
 
- class RoofReplacement {
+ class HouseRepair {
 
      String ownerName;
      String typeOfRemodeling;
@@ -9,61 +9,70 @@ package com.java.class26HomeWork;
      double roofCost;
      int windowPieces;
 
-     RoofReplacement(String ownerNameFromUser) {
+     HouseRepair(String ownerNameFromUser) {
          ownerName = ownerNameFromUser;
-         System.out.println("Hello Mr " + ownerNameFromUser + " What type of remodel are you looking for ");
+         System.out.println("Hello Mr " + ownerNameFromUser + " What type of remodel are you looking for ? ");
      }
 
-     RoofReplacement(String typeOfRemodelingFromUser, String qualityFromUser, double roofSizeFromUser) {
+     HouseRepair(String typeOfRemodelingFromUser, String qualityFromUser, double roofSizeFromUser) {
          typeOfRemodeling = typeOfRemodelingFromUser;
          quality = qualityFromUser;
          roofSize = roofSizeFromUser;
 
-         System.out.println("You choose remodeling type " + typeOfRemodelingFromUser + " quality " + qualityFromUser);
-         System.out.println(" You entered that your size of the roof is " + roofSizeFromUser + " squers");
+         System.out.println("You choose option  " + typeOfRemodelingFromUser + " quality " + qualityFromUser);
+         System.out.println(" You entered  your size of the roof is " + roofSizeFromUser + " squers");
+         System.out.println("Total price for roof replacement is $ " + roofCost);
      }
 
-     double roofRepair(double roofSize) {
+     double roofRepair(double roofSizeFromUser) {
          roofSize = roofSize * 650;
          roofCost = roofSize;
          return roofCost;
 
 
-
-
      }
 
-     void windowReplacement(int windowPieces) {
-         windowPieces = windowPieces * 550;
-         //System.out.println("price " + windowPieces);
-
-     }
 
 
      class WindowReplacement {
 
-         String windows;
-         double windowCost;
-         String gutters;
-         double gutterCost;
-         int quantity;
-         double RoofReplacement;
-         int WindowReplacement;
-         double GutterReplacement;
 
+         double windowCost;
+
+         int windowReplacement;
+
+
+
+         void windowReplacement(int windowPieces) {
+             windowPieces = windowPieces * 550;
+             //System.out.println("price " + windowPieces);
+
+         }
 
          void WindowReplacement(int windowPieces) {
              windowPieces = windowPieces * 550;
+             windowCost = windowPieces;
          }
 
 
-         void GutterReplacement(double gutterLength) {
-             gutterLength = gutterLength * 11.5;
-
-         }
 
 
      }
+     class gutterReplacement{
+
+         //double gutterReplacement;
+        // double gutterCost;
+
+         double getGutterReplacement(double gutterLength) {
+             gutterLength = gutterLength * 11.5;
+             return gutterLength;
+         }
+
+
+
+
+     }
+
  }
 
 

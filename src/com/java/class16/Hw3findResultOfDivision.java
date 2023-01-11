@@ -1,10 +1,8 @@
 package com.java.class16;
 
-import java.util.Scanner;
-
-//Java program to Write a program to find factors of the given
+//Java program to Write a program to find (result) sum  of the given
 // number of 1/2 + 2/3 + 3/4 + 4/5 + 5/6 + 6/7 + 7/8 + 8/9 + 9/10 + 10/11
-public class Hw3FactorsOfTheGivenNum {
+public class Hw3findResultOfDivision {
     public static void main(String[] args) {
         double sum = 0;
         int i;

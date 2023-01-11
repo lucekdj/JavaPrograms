@@ -1,13 +1,22 @@
 package com.java.class40;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class CheckedException {
-    public static void main(String[] args) throws Exception {
-            openBrowser();
+    public static void main(String[] args) {  //throws IOException  {
+           try{
+               openBrowser();
+           }catch   (IOException e){       //(Exception e){
+               System.out.println( " Invalid Browser ");
+           }
+
+
+        // openBrowser();
+
     }
 
-    public static void openBrowser() throws Exception {
+    public static void openBrowser() throws IOException {
         Scanner sc = new Scanner(System.in);
         String browser = sc.nextLine();
 
@@ -16,7 +25,7 @@ public class CheckedException {
         } else if (browser.equals("Firefox")) {
             System.out.println("Opening Firefox");
         } else {
-                throw new Exception("Invalid Browser");
+                throw new IOException("Invalid Browser");
         }
     }
 }

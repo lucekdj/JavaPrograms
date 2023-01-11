@@ -9,9 +9,9 @@ public class Main4 {
         System.out.println(a);
     }
 
-        static int changeValue(int a){
-        a = a + 5;
-        return a;
+        static int changeValue(int z){
+        z = z + 5;
+        return z;
     }
 
 

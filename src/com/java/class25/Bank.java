@@ -11,14 +11,16 @@ public class Bank {
 
     void deposit(double amount) {
         balance = balance + amount;
+       // return balance; can we return if yes how to call it in main?
     }
 
     void withdraw(double amount) {
         balance = balance - amount;
+        System.out.println("Balance after withdraw");
     }
 
-    void transferMoney(String accNumber, double amount) {
-        System.out.println("Transferring " + amount + " to " + accNumber);
+    void transferMoney(String accName, double amount, int routingNumber) {
+        System.out.println("Transferring $ " + amount + " to account of (owner name) " + accName + " at routing nr    "+ routingNumber);
     }
 
 }

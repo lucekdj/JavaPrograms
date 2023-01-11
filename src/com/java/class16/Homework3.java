@@ -10,9 +10,9 @@ public class Homework3 {
                 sum = sum - i;
             }else{
                 sum = sum + i;
-            }
+            }System.out.println(sum);
         }
 
-        System.out.println(sum);
+
     }
 }

@@ -16,7 +16,7 @@ public class FindIndexOfNumber {
 
     static int findIndex(int[] data, int targetNumber) {   //static   i return int  not void bo return robimy i wraca intege
         int index = 0;
-        for (int i=0; i<data.length; i++) {     // znow blad  wstawilem ; a nie {
+        for (int i=0; i<data.length; i++) {
             if (data[i] == targetNumber) {
 
                 index = i;

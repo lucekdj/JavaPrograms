@@ -12,7 +12,7 @@ public class CalculatorSwitchStatement {
         System.out.println("Enter the second nr");
         int num2 = sc.nextInt();
 
-        switch (operation.toLowerCase()) { //    or  .toUppercase
+        switch (operation) { //   operation.toLowercase or  .toUppercase
             case "add":
             case "Add":
                 System.out.println(num1 + num2);

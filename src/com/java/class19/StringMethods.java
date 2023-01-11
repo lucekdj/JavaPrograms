@@ -1,7 +1,5 @@
 package com.java.class19;
 
-import java.util.Locale;
-
 public class StringMethods {
     public static void main(String[] args) {
         String str1 = "Hello";
@@ -36,7 +34,7 @@ public class StringMethods {
 
         // 8. Check if String is empty
         String str5 = "   ";
-        System.out.println(str5.isEmpty()); // false
+        System.out.println(str1.isEmpty()); // false
        // System.out.println(str5.isBlank()); // true
 
         // 9. Trim - trimming spaces before and after String

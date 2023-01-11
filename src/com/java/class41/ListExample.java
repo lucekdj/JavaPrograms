@@ -1,27 +1,30 @@
 package com.java.class41;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ListExample {
     public static void main(String[] args) {
 
-        List<Integer> listOfData = Arrays.asList(10,3,4,65,23,67,3,7,4);
+        List<Integer> listOfData =  new ArrayList<>();
+
+        Integer element = 10;
 
         listOfData.add(10);
         listOfData.add(50);
         listOfData.add(20);
         listOfData.add(45);
-
-        listOfData.remove(new Integer(10)); // remove data 10
-
+        listOfData.remove(element);
         listOfData.remove(2); // remove element at index 2
+
+        // listOfData.remove(new Integer(10)); // remove data 10
+
+
 
         System.out.println(listOfData);
 
         System.out.println(listOfData.size());
 
-        System.out.println(listOfData);
 
         System.out.println(listOfData.get(0));
 
@@ -29,7 +32,6 @@ public class ListExample {
 
         System.out.println(listOfData.isEmpty());
 
-        System.out.println(listOfData);
 
 
 

@@ -14,22 +14,22 @@ public class Hw1SumOfEachColumn {
     public static void main(String[] args) {
 
 
-        int nums [] = {23, 44, 21, 23, 23, 35, 35, 23, 23, 44,35};
+        int nums[] = {23, 44, 21, 23, 23, 35, 35, 23, 23, 44, 35};
 
-        int sum ;
+        int sum =0;
 
-          for (int i =0; i < nums.length; i++){
-           sum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            //sum = 0;
 
-              for (int j = 0; j < nums.length; j++ ){
+            for (int j = 0; j < nums.length; j++) {
 
-
-
-
+                sum = sum + nums[i];
 
 
 
 
-
+            }
+            System.out.println(sum);
+        }
     }
-}}}
+}
