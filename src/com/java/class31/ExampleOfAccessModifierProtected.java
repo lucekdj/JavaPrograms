@@ -1,6 +1,4 @@
-package com.java.class30;
-
-import com.java.class31.Bank1;
+package com.java.class31;
 
 public class ExampleOfAccessModifierProtected extends Bank1{
     public void main(String[] args) {
